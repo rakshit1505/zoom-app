@@ -1,0 +1,9 @@
+<h1><center>Recordings</center></h1><br>
+<div class="row" style="text-align: center;">
+	<% @directories.each do |d|  %>
+		<div class = "col-md-4" style="margin-bottom: 20px">
+			<p><%= d %></p>
+			<%= video_tag(('/'+d+'/zoom_0.mp4').gsub(' ', '%20'), controls: true, style: "width: 80%;") %>
+		</div>
+	<% end %>
+</div>	
