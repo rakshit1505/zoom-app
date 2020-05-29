@@ -26,3 +26,7 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+
+For zoom:
+
+* Go to the recordings section of zoom settings and charge the local storage path to the current applications public folder.
