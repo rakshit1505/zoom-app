@@ -36,7 +36,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
 
 
-gem 'sidekiq', '~> 5.2.8'
+gem 'sidekiq', '~> 6.4.0'
 
 
 gem "letter_opener", :group => :development
